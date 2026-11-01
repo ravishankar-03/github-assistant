@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maintainer Copilot - Live SSE Repository Analyzer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f0fdf4',
+                100: '#dcfce7',
+                500: '#22c55e',
+                600: '#16a34a',
+                700: '#15803d',
+                900: '#14532d',
+              },
+              gh: {
+                dark: '#0d1117',
+                card: '#161b22',
+                border: '#30363d',
+                hover: '#21262d',
+                text: '#c9d1d9',
+                muted: '#8b949e',
+                green: '#238636',
+                purple: '#8957e5',
+                blue: '#58a6ff',
+                orange: '#d29922',
+                red: '#f85149'
+              }
+            },
+            fontFamily: {
+              mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace']
+            }
+          }
+        }
+      }
+    </script>
+      </head>
+  <body class="bg-[#090d13] text-gray-100 min-h-screen antialiased selection:bg-emerald-500/30 selection:text-emerald-300">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.js"></script></body>
+</html>
