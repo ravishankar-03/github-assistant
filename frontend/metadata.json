@@ -1,0 +1,4 @@
+{
+  "name": "Maintainer Copilot - Live SSE Repo Analyzer",
+  "description": "Real-time GitHub repository analysis dashboard with live Server-Sent Events (SSE) streaming progress, animated step tracker, AI semantic duplicate detection, issue completeness screening, and Gemini copilot."
+}
